@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+/* subtitulo 1 y alineación de elemento*/
+.FAQ{
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+.FAQ h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+/* accordion */
+.accordion {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #868ec99e;
+    background-size: 50%;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }
+  
+
+.active, .accordion:hover {
+    background-color: #748fe7a8;
+  }
+  
+.panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    }
+.panel p{
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgb(255,255,255);
+    background-color: #868ec99e;
+}
+
+
+@media (max-width: 1366px){
+
+    .FAQ h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 1920px){
+
+    .FAQ h1{
+        font-size: 30px;
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+}

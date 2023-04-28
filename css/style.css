@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+html{
+    min-height: 100%;
+    overflow: hidden;
+    height: 100%;
+
+    
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: 0.25s ease-out 0s 1 fadeInAnimation;    
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(33, 26, 133, 0.838) 100%);
+    overflow: auto;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* .nav-container .alink{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+    background-size: cover;
+    background: scroll;
+    height: inherit;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
